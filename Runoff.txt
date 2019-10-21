@@ -1,0 +1,7 @@
+Runoff Program
+Prompt user for height, width, inches of rainfall
+Multiply height by 12
+Multiply width by 12
+Multiply height by width by rainfall; set this value to runoff
+Divide runoff by 231
+Output runoff

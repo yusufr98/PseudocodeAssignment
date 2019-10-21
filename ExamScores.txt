@@ -1,0 +1,8 @@
+Exam Scores Program
+Create Array
+Loop for total number of exams
+	Prompt user for exam scores and add to array
+End Loop
+Sum all scores
+Divide sum by number of exam scores(array size)
+Output average
