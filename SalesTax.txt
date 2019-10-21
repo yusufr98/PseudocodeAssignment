@@ -1,0 +1,12 @@
+Read name, purchase amount tax code
+CASE OF tax code
+	=0, salesTax=0% of amount
+	=1, salesTax=3% of amount
+	=2, salesTax=5% of amount
+	=3, salesTax=7% of amount
+ENDCASE
+Set totalDue to Sales Tax + purchase amount
+Print name, purchase amount, salesTax, totalDue
+
+Test Case 1 = Yusuf, 10.00, 3 ; Result: Yusuf, 10.00, .70, 10.70
+Test Case 2 = Eric, 15.45, 0 ; Result: Eric, 15.45, 0, 15.45

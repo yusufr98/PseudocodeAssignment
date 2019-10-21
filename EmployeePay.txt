@@ -1,0 +1,16 @@
+Read employeeNumber, payRate, hours
+IF hours<60 AND payRate<25
+THEN 
+	IF hours<35
+	THEN 
+		set totalPay to hours multiplied by payRate
+	ELSE
+		set totalPay to 35 multiplied by payRate
+		set OTpay to (hours-35) multiplied by (payRate*1.5)
+		add OTpay to totalPay
+				
+ELSE
+	Print error message and entered data
+
+Test Case 1: 12345, 10, 30 Result: input data, totalPay=300
+Test Case 2: 12345, 10, 40 Result: input data, totalPay=425
