@@ -5,3 +5,7 @@ Multiply width by 12
 Multiply height by width by rainfall; set this value to runoff
 Divide runoff by 231
 Output runoff
+END
+
+test case1:50,20,1 Result:623.38
+test case2:1,1,1 Result:.62
